@@ -2,9 +2,9 @@ name: Docker Image CI # 이름 마음대로 써도 된다
 
 on:
   push: # 마스터 브랜치에 푸시가 일어날 때
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request: # 마스트 브랜치에 풀리퀘가 일어날 때
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   # 1. CI - 통합(build) 
